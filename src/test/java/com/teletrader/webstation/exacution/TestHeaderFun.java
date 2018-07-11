@@ -67,19 +67,19 @@ public class TestHeaderFun {
         //objHeader.changeToGerman();
         //3.2.7 Enter symbol name “BMW” in „Live Search“, and click searchButton
         objHeader.clickDetailSearch();
+        //3.2.6 Enter symbol name “BMW” in „Live Search“, and in expanded results click on a „Table“ button.
+        objHeader.clickDetailTable();
         //3.2.4 Enter symbol name “BMW” in „Live Search“,
         //and in expanded results click  on first symbol that appears BMW St.
-        objHeader.searchSymbolBMW();
-        //3.2.6 Enter symbol name “BMW” in „Live Search“, and in expanded results click on a „Table“ button.
-        //objHeader.clickDetailTable();
+        //objHeader.searchSymbolBMW();
 
         //HEADER CHART
         //3.3.1 Move mouse over the blue character HangS and click on dropdown
-        objHeader.cickOnAsiaSymbol();
+        //objHeader.cickOnAsiaSymbol();
         //3.3.2 Click on DAX and compare Chn. From market overview
         //objHeader.compareHeaderChange();
         //3.2.4 Click on orange Dow and choose USD/EUR
-        objHeader.clickOnEURUSD();
+        //objHeader.clickOnEURUSD();
 
         //FAVORITE BUTTON
         //3.4.1 Click on  ? icon help button/ press F1 on keyboard
@@ -87,6 +87,12 @@ public class TestHeaderFun {
         //3.4.2 Click on the Open in new browser window button
         //objHeader.openInNewBrowser();
         //3.4.3 Click on the star button
+
+
+
+        //SELECT LAYOUT
+        //3.5.1 Click on the Select Layout button   and select second layout.
+        objHeader.selectLayoutTwo();
 
         //quitbrowser
         //driver.quit();
